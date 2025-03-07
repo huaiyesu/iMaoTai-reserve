@@ -9,7 +9,6 @@ on:
     paths:
       - '.github/workflows/**'
   schedule:
-    - cron: '05 01 * * *'  # 这里进行了修改
     - cron: '30 01 * * *'  # 这里进行了修改
 
 env:
